@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator|JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Calculator</h1>
+
+
+<div class="calculator">
+<input type="text" id="display" disabled placeholder="0">
+    <br><br>
+
+<div class="buttons">
+    <button class="btn-fn" onclick="limpar()">AC</button>
+    <button class="btn-fn" onclick="apertar('%')">%</button>
+    <button class="btn-fn" onclick="apertar('/')">÷</button>
+    <button class="btn-op" onclick="apertar('*')">×</button>
+    <button  class="btn-num"  onclick="apertar('4')">4</button>
+
+    <button class="btn-num" onclick="apertar('7')">7</button>
+    <button class="btn-num" onclick="apertar('8')">8</button>
+    <button class="btn-num" onclick="apertar('9')">9</button>
+    <button class="btn-op" onclick="apertar('-')">−</button>
+
+    <button class="btn-num" onclick="apertar('4')">4</button>
+    <button class="btn-num" onclick="apertar('5')">5</button>
+    <button class="btn-num" onclick="apertar('6')">6</button>
+    <button class="btn-op" onclick="apertar('+')">+</button>
+
+    <button class="btn-num" onclick="apertar('1')">1</button>
+    <button class="btn-num" onclick="apertar('2')">2</button>
+    <button class="btn-num" onclick="apertar('3')">3</button>
+    <button class="btn-op" onclick="calcular()">=</button>
+
+    <button class="btn-num btn-zero" onclick="apertar('0')">0</button>
+    <button class="btn-num" onclick="apertar('.')">.</button>
+
+
+
+
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
